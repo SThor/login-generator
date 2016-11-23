@@ -8,7 +8,7 @@ import java.util.Random;
 /**
  * Created by 21301646 on 23/11/2016.
  */
-public class PasswordGeneration {
+public class PasswordGenerator {
     /**
      * Default password length
      */
