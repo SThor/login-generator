@@ -38,4 +38,10 @@ public class LoginGeneratorTest {
         generator.generateLoginForNomAndPrenom("Ralling","John");
         assertTrue(service.loginExists("JRAL2"));
     }
+
+    @Test
+    public void testShortName() throws Exception {
+        generator.generateLoginForNomAndPrenom("Du","Paul");
+        assertTrue(service.loginExists("PDU"));
+    }
 }
